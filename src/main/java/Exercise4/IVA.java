@@ -10,7 +10,7 @@ public class IVA {
         this.priceProduct = priceProduct;
     }
 
-    public float calculate(){
+    public float calculate() {
         Float IVA = priceProduct * percentage;
         return IVA;
     }

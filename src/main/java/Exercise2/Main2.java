@@ -14,6 +14,6 @@ public class Main2 {
         Integer number2 = scan.nextInt();
 
         NumberComparison numberComparison = new NumberComparison();
-        numberComparison.isGreater(number1,number2);
+        numberComparison.isGreater(number1, number2);
     }
 }
