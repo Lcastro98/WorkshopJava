@@ -3,7 +3,7 @@ package Exercise5;
 public class Main5 {
     public static void main(String[] args) {
         NumberClassification numberClassification = new NumberClassification();
-        numberClassification.oddNumbers();
-        numberClassification.pairNumbers();
+        numberClassification.oddNumbersWhile();
+        numberClassification.pairNumbersWhile();
     }
 }
