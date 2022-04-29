@@ -2,7 +2,22 @@ package Exercise15;
 
 import java.util.Scanner;
 
+/**
+ * Clase inicial del ejercicio 15
+ *
+ * @author Lorena Castro <Lcastro0398@gmail.com>
+ * @version 1.0.0
+ * @since 1.0.0
+ */
 public class Main15 {
+
+    /**
+     * Método principal con el que inicia el sistema
+     *
+     * @param args
+     * @author Lorena Castro <Lcastro0398@gmail.com>
+     * @since 1.0.0
+     */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Boolean finish = false;
@@ -18,6 +33,7 @@ public class Main15 {
                 8-SALIR""";
         System.out.println(menu);
 
+        //Imprime el menu mientras el número indicado sea diferente a 8
         do {
             System.out.println("Escriba un número: ");
             Integer option = scan.nextInt();
