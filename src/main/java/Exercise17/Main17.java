@@ -1,6 +1,21 @@
 package Exercise17;
 
+/**
+ * Clase inicial del ejercicio 17
+ *
+ * @author Lorena Castro <Lcastro0398@gmail.com>
+ * @version 1.0.0
+ * @since 1.0.0
+ */
 public class Main17 {
+
+    /**
+     * Método principal con el que inicia el sistema
+     *
+     * @param args
+     * @author Lorena Castro <Lcastro0398@gmail.com>
+     * @since 1.0.0
+     */
     public static void main(String[] args) {
         Appliance appliances[] = new Appliance[10];
         appliances[0] = new WashingMachine(10000D, 5);
@@ -18,12 +33,12 @@ public class Main17 {
         Double televisions = 0D;
         Double allAppliances = 0D;
 
-        for (Appliance appliance: appliances){
+        for (Appliance appliance : appliances) {
 
-            if (appliance instanceof WashingMachine){
+            if (appliance instanceof WashingMachine) {
                 washingMachines += appliance.finalPrice();
 
-            } else if(appliance instanceof Television){
+            } else if (appliance instanceof Television) {
                 televisions += appliance.finalPrice();
             }
             allAppliances = washingMachines + televisions;
